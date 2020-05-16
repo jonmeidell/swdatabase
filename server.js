@@ -18,9 +18,16 @@ const charactersH = [
 	{
 		routeName: "yoda",
 		name: "Yoda",
-		role: "Jedi Master",
+		role: "Grand Jedi Master",
 		age: 900,
 		forcePoints: 2000
+	},
+	{
+		routeName: "quigon",
+		name: "Qui-gon Jinn",
+		role: "Jedi Master",
+		age: 48,
+		forcePoints: 1700
 	},
 	{
 		routeName: "obiwan",
@@ -47,6 +54,7 @@ const charactersD = [
 		forcePoints: "It's over 9000!"
 	}
 ];
+// Villians
 const charactersV = [
 	{
 		routeName: "darthmaul",
@@ -66,6 +74,13 @@ const charactersV = [
 		routeName: "asajj",
 		name: "Asajj Ventress",
 		role: "Sith Apprentice",
+		age: 30,
+		forcePoints: 1500
+	},
+	{
+		routeName: "dooku",
+		name: "Count Dooku",
+		role: "Sith Lord",
 		age: 30,
 		forcePoints: 2500
 	}
